@@ -1,0 +1,60 @@
+{
+  "perplexity": {
+    "avg_loss": 5.8155,
+    "perplexity": 335.45,
+    "num_batches": 50,
+    "num_tokens": 204800
+  },
+  "generation": [
+    {
+      "prompt": "The capital of France is",
+      "completion": "the most important in the past. The first, which I want to go.  Much. I have been looking for the world at the time, I can't get my day, but I'm going to be so much so I can't get to do it. It also knew that I love. It's a lot of good. I can't just know it",
+      "full": "The capital of France isthe most important in the past. The first, which I want to go.  Much. I have been looking for the world at the time, I can't get my day, but I'm going to be so much so I can't get to do it. It also knew that I love. It's a lot of good. I can't just know it"
+    },
+    {
+      "prompt": "Water is made of",
+      "completion": "the new area, which is only a very little powerful at the season. The first time we need to have to get to the best way. I wanted to see that the whole thing is going to have a few minutes and it will get the same, but it's only one of the two-to-uped in the area. I could have some work and you are a good thing",
+      "full": "Water is made ofthe new area, which is only a very little powerful at the season. The first time we need to have to get to the best way. I wanted to see that the whole thing is going to have a few minutes and it will get the same, but it's only one of the two-to-uped in the area. I could have some work and you are a good thing"
+    },
+    {
+      "prompt": "The speed of light is",
+      "completion": "a high part of a small job that does not be the best opportunity. The fact is the following way that is the most important way to get this to my way. It has to be a new reason that he is not so big as he does.  But the thing is that you can want to the story.  You'll be able to do a lot of things like she's",
+      "full": "The speed of light isa high part of a small job that does not be the best opportunity. The fact is the following way that is the most important way to get this to my way. It has to be a new reason that he is not so big as he does.  But the thing is that you can want to the story.  You'll be able to do a lot of things like she's"
+    },
+    {
+      "prompt": "Once upon a time there was a",
+      "completion": "lot of our way in this area.  The time, a lot of good than just the week, but it is great that I was not very different. It was a good way to come at the way, but we were a good more better than a week, I knew I had a little more than in the country. It was a good way to get a new way, so I was",
+      "full": "Once upon a time there was alot of our way in this area.  The time, a lot of good than just the week, but it is great that I was not very different. It was a good way to come at the way, but we were a good more better than a week, I knew I had a little more than in the country. It was a good way to get a new way, so I was"
+    },
+    {
+      "prompt": "The scientist discovered a new",
+      "completion": "price of the most successful and more important, and the other person is not the only common, but you\u2019ll have a new way to help you. It can be a great thing that is going to do this, but I need it.  I like to help you can take a little other way and not my heart. The book is a real-to-the-the-one-",
+      "full": "The scientist discovered a newprice of the most successful and more important, and the other person is not the only common, but you\u2019ll have a new way to help you. It can be a great thing that is going to do this, but I need it.  I like to help you can take a little other way and not my heart. The book is a real-to-the-the-one-"
+    },
+    {
+      "prompt": "In the year 2050, humans will",
+      "completion": "have a short time of people a few other, that will help you the people to have the best way in the first time of the summer.  Pamayen says he was a very new team, I'm a huge idea of my son of the team and the team he was the best time of his parents, but he is his son in America and in the next two-old",
+      "full": "In the year 2050, humans willhave a short time of people a few other, that will help you the people to have the best way in the first time of the summer.  Pamayen says he was a very new team, I'm a huge idea of my son of the team and the team he was the best time of his parents, but he is his son in America and in the next two-old"
+    },
+    {
+      "prompt": "The best way to learn programming is",
+      "completion": "so good in a bit of the time.  The one has also been on a different opportunity and he is now one of the next season for the three. But we\u2019ll have to know how we are in the only week of the team is really very close when we\u2019re the end of the last year in the season.  D. I have just got a year and I\u2019m",
+      "full": "The best way to learn programming isso good in a bit of the time.  The one has also been on a different opportunity and he is now one of the next season for the three. But we\u2019ll have to know how we are in the only week of the team is really very close when we\u2019re the end of the last year in the season.  D. I have just got a year and I\u2019m"
+    },
+    {
+      "prompt": "Artificial intelligence will change the world by",
+      "completion": "the next and it will be a good chance to take the most few different games in the area, and the first two other people will be able to be the best people who can take from the time of the year. We will also do a bit of good, but it can't tell that the way is not going to be in the last year to the day for the time. He is",
+      "full": "Artificial intelligence will change the world bythe next and it will be a good chance to take the most few different games in the area, and the first two other people will be able to be the best people who can take from the time of the year. We will also do a bit of good, but it can't tell that the way is not going to be in the last year to the day for the time. He is"
+    },
+    {
+      "prompt": "Machine learning is a field of",
+      "completion": "the University of the National City of the New York.  In a matter of school is a lot of important, but she was very long. But when she was a bit of his eyes, she was in her a lot of way, and she was not too much to work.  He has been a good chance to meet her, and she has been to be in her. The book was",
+      "full": "Machine learning is a field ofthe University of the National City of the New York.  In a matter of school is a lot of important, but she was very long. But when she was a bit of his eyes, she was in her a lot of way, and she was not too much to work.  He has been a good chance to meet her, and she has been to be in her. The book was"
+    },
+    {
+      "prompt": "The transformer architecture was introduced in",
+      "completion": "the first week.  The event also played two more and two of the next week. In the last three years, the team was also an excellent job, but she was a new game with a team of years old-sig.  A.C.A.A. T.J. on the night at the season. What are the first of the year in the year",
+      "full": "The transformer architecture was introduced inthe first week.  The event also played two more and two of the next week. In the last three years, the team was also an excellent job, but she was a new game with a team of years old-sig.  A.C.A.A. T.J. on the night at the season. What are the first of the year in the year"
+    }
+  ]
+}

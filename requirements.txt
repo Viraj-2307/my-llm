@@ -1,0 +1,13 @@
+torch
+sentencepiece
+datasets
+transformers
+fastapi
+uvicorn
+pydantic
+tiktoken 
+mlflow 
+einops
+wandb
+numpy
+tqdm
