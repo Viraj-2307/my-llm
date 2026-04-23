@@ -14,8 +14,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Create necessary directories
-RUN mkdir -p checkpoints export data/shards tokenizer finetune/checkpoints
+RUN mkdir -p checkpoints export data/shards tokenizer \
+             finetune/checkpoints frontend
 
-EXPOSE 3001
+# HuggingFace requires port 7860
+EXPOSE 7860
+
+# HuggingFace runs as non-root user 1000
+RUN useradd -m -u 1000 user
+USER user
 
 CMD ["python", "serve.py"]

@@ -129,7 +129,7 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "model": "my-llm", "params": model.num_params()}
+    return {"status": "ok" if model is not None else "no model loaded", "model": "my-llm", "params": model.num_params() if model is not None else 0}
 
 
 @app.post("/generate", response_model=GenerateResponse)
@@ -174,4 +174,5 @@ def chat(req: GenerateRequest):
     return generate(req)
 
 if __name__ == "__main__":
-    uvicorn.run("serve:app", host="0.0.0.0", port=3001, reload=False)
+    port = int(os.environ.get("PORT", 7860))
+    uvicorn.run("serve:app", host="0.0.0.0", port=port, reload=False)

@@ -1,56 +1,30 @@
+cat > README.md << 'EOF'
 ---
 title: My LLM
 emoji: 🧠
 colorFrom: green
 colorTo: black
-sdk: static
+sdk: docker
+app_port: 7860
 pinned: true
 ---
 
+# My LLM — Built from Scratch
+
+A complete, production-grade LLM built entirely from scratch.
+
+## Architecture
+- Decoder-only transformer (GPT-style)
+- 35M parameters
+- Grouped Query Attention (GQA)
+- SwiGLU FFN + RoPE + RMSNorm
+- Int8 quantization for CPU inference
+
 ## Quickstart
-
-### 1. Install dependencies
-```bash
-python -m venv env
-source env/bin/activate
-pip install -r requirements.txt
-```
-
-### 2. Train tokenizer
-```bash
-python tokenizer/train_tokenizer.py
-```
-
-### 3. Prepare data
-```bash
-python data/prepare.py
-```
-
-### 4. Train model
-```bash
-# CPU
-python train.py
-
-# GPU (recommended)
-python train.py --device cuda
-```
-
-### 5. Export + quantize
-```bash
-python export/export_gguf.py --checkpoint checkpoints/ckpt_0000500.pt
-python export/quantize.py --weights export/model_weights.pt
-```
-
-### 6. Run server
-```bash
-python serve.py
-# Open http://localhost:3001
-```
-
-### 7. Docker deployment
-```bash
+\`\`\`bash
 docker compose up --build
-```
+# Open http://localhost:3001
+\`\`\`
 
 ## Training Results
 | Steps | Loss | Perplexity |
@@ -58,9 +32,5 @@ docker compose up --build
 | 500   | 5.81 | 335        |
 
 ## Tech Stack
-- PyTorch
-- SentencePiece
-- FastAPI + Uvicorn
-- HuggingFace Datasets
-- Docker
+PyTorch · SentencePiece · FastAPI · Docker · HuggingFace
 EOF
