@@ -1,3 +1,12 @@
+---
+title: My LLM
+emoji: 🧠
+colorFrom: green
+colorTo: black
+sdk: static
+pinned: true
+---
+
 ## Quickstart
 
 ### 1. Install dependencies
